@@ -22,7 +22,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setLoading(true);
+    setLoading(true);d
     setCurrentAnimation("hit");
 
     emailjs
