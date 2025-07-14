@@ -1,58 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id-ID">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/src/assets/favicon.ico" />
+    <!-- Favicon Modern -->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>Bima Adam - Software Engineer & Photographer | Portfolio</title>
+    <meta
+      name="description"
+      content="Hai! Saya Bima Adam, Software Engineer dan Photographer dari Boyolali. Ahli TypeScript/JavaScript, Arduino, dan Rust. Yuk lihat projek keren saya!"
+    />
+    <meta
+      name="keywords"
+      content="Bima Adam, Portfolio, Web Developer, Software Engineer, Photographer, TypeScript, JavaScript, Arduino, Rust, Boyolali, Indonesia, DevNarda"
+    />
+    <meta name="author" content="Bima Adam" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://bimaadam.fun" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bimaadam.fun/" />
+    <meta
+      property="og:title"
+      content="Bima Adam | Software Engineer & Creative Photographer"
+    />
+    <meta
+      property="og:description"
+      content="Portfolio resmi Bima Adam - Gabungan teknologi dan seni dalam satu tempat."
+    />
+    <meta property="og:image" content="https://bimaadam.fun/preview.png" />
+    <meta property="og:locale" content="id_ID" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Bima Adam | Tech + Photography" />
+    <meta
+      name="twitter:description"
+      content="Jelajahi dunia coding dan fotografi melalui karya Bima Adam."
+    />
+    <meta name="twitter:image" content="https://bimaadam.fun/preview.png" />
+
+    <!-- Structured Data -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Bima Adam",
         "url": "https://bimaadam.fun",
-        "jobTitle": "Software Engineer",
+        "image": "https://bimaadam.fun/preview.png",
+        "jobTitle": "Software Engineer & Photographer",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "DevNarda",
+          "url": "https://devnarda27.github.io/org"
+        },
+        "sameAs": [
+          "https://github.com/bimaadam",
+          "https://devnarda27.github.io/org",
+          "https://linkedin.com/in/"
+        ],
+        "skills": [
+          "TypeScript",
+          "JavaScript",
+          "React",
+          "Next.js",
+          "Arduino",
+          "Rust",
+          "Photography"
+        ],
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Boyolali",
+          "addressRegion": "Jawa Tengah",
           "addressCountry": "ID"
-        },
-        "sameAs": ["https://github.com/bimaadam", ""]
+        }
       }
     </script>
 
-    <meta
-      name="description"
-      content="Portfolio Bima Adam, a Software Engineer and Photographer from Boyolali, Indonesia. Passionate about TypeScript and JavaScript, currently learning Arduino and Rust. Co-founder of Devnarda with Hikari Takahashi. Discover his projects, skills, and contact info here."
-    />
-
-    <meta
-      name="keywords"
-      content="Bima Adam, Portfolio, Software Engineer, React, Next.js, Boyolali, Indonesia"
-    />
-    <meta name="author" content="Bima Adam" />
-
-    <!-- OG Tags -->
-    <meta property="og:title" content="Bima Adam - Software Engineer" />
-    <meta
-      property="og:description"
-      content="Portfolio resmi Bima Adam dari Boyolali, Indonesia"
-    />
-    <meta property="og:image" content="https://bimaadam.fun/preview.png" />
-    <meta property="og:url" content="https://bimaadam.fun/" />
-    <meta property="og:type" content="website" />
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Bima Adam | Software Engineer" />
-    <meta
-      name="twitter:description"
-      content="Lihat portfolio dan projek dari Bima Adam"
-    />
-    <meta name="twitter:image" content="https://bimaadam.fun/preview.png" />
-    <title>Bima Adam | Portfolio</title>
+    <!-- Preload Critical Assets -->
+    <link rel="preload" href="/src/main.jsx" as="script" />
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+
+    <!-- Analytics (Opsional) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "GA_MEASUREMENT_ID");
+    </script>
   </body>
 </html>
