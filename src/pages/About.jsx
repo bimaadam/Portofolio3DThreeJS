@@ -22,13 +22,18 @@ const About = () => {
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          Hi, I'm Bima Adam — a passionate Software Engineer with a strong love
-          for TypeScript and JavaScript. I'm currently learning Arduino and Rust
-          to broaden my skills in both web and hardware development. I'm the
-          co-founder of Devnarda, a creative tech organization I built together
-          with Hikari Takahashi. Beyond coding, I also explore the world through
-          my lens — I love photography. I’m from Indonesia and currently living
-          in Boyolali.
+          Hi, I'm Bima Adam — also known as Bima Adam Nugraha — a passionate
+          Software Engineer from Boyolali, Indonesia. I'm deeply in love with
+          TypeScript and JavaScript, and currently expanding my skills by
+          learning Arduino and Rust, combining both web and hardware
+          development. I'm the co-founder of **Devnarda**, a creative tech
+          organization I built alongside Hikari Takahashi, focused on developing
+          open-source tools and impactful digital solutions. Beyond code, I'm
+          also a photography enthusiast who loves capturing the world through my
+          lens. In my personal life, I'm proud to share my journey with **Ririn
+          Setiawati**, the love of my life and my biggest supporter. Whether
+          it's writing clean code, crafting beautiful UIs, or exploring the
+          world behind a camera — I'm all in.
         </p>
       </div>
 

@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { BPS, Artha, klinik } from "../assets/images";
 import {
   car,
   contact,
@@ -111,55 +111,55 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#accbe1",
-    date: "March 2020 - April 2021",
+    title: "Fullstack Developer – Klinik Setia Medika",
+    company_name: "Klinik Setia Medika, Indonesia",
+    icon: klinik, // custom icon
+    iconBg: "#fcd5ce",
+    date: "May 2025 - Jun 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built a daily clinic reporting system using Next.js, covering patient visits, medical records, and doctor schedules.",
+      "Implemented secure form submission and real-time data updates using server-side rendering.",
+      "Improved workflow efficiency for doctors and admins with simplified UI/UX design.",
+      "Collaborated with healthcare staff to automate manual reporting processes.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#fbc3bc",
-    date: "Jan 2021 - Feb 2022",
+    title: "Fullstack Developer – BPS Tasikmalaya",
+    company_name: "Badan Pusat Statistik Tasikmalaya",
+    icon: BPS, // custom icon
+    iconBg: "#cce3de",
+    date: "Jun 2025 - Jul 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a real-time employee monitoring dashboard using native PHP and AJAX.",
+      "Handled session management, secure login, and dynamic content rendering without frameworks.",
+      "Enabled supervisors to track attendance, activity logs, and role-based access control.",
+      "Delivered a fully functional system within tight deadlines for a government office.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#b7e4c7",
-    date: "Jan 2022 - Jan 2023",
+    title: "Fullstack Developer – Zooya Cookies",
+    company_name: "Zooya Cookies, Indonesia",
+    icon: zooya, // custom icon
+    iconBg: "#f0efeb",
+    date: "July 2025 - Sept 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built a payroll system using PHP for managing employee salaries, bonuses, and deductions.",
+      "Integrated monthly salary calculations, payslip generation, and approval system.",
+      "Designed user-friendly admin panel for business owners to manage staff records efficiently.",
+      "Helped automate Zooya's previously manual salary process into digital.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#a2d2ff",
-    date: "Jan 2023 - Present",
+    title: "Fullstack Developer – Hotel Artha Lombok",
+    company_name: "Hotel Artha, Lombok, Indonesia",
+    icon: Artha, // custom icon
+    iconBg: "#d3e4cd",
+    date: "Sept 2024 - Oct 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created a hotel room booking system using Next.js with modern UI and responsive design.",
+      "Integrated room availability calendar, booking form, and admin dashboard.",
+      "Enabled real-time room management and email confirmation for guests.",
+      "Collaborated with hotel staff to understand user journey and booking process.",
     ],
   },
 ];
