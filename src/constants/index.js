@@ -1,4 +1,4 @@
-import { BPS, Artha, klinik } from "../assets/images";
+import { bps, klinik, artha } from "../assets/images";
 import {
   car,
   contact,
@@ -126,7 +126,7 @@ export const experiences = [
   {
     title: "Fullstack Developer – BPS Tasikmalaya",
     company_name: "Badan Pusat Statistik Tasikmalaya",
-    icon: BPS, // custom icon
+    icon: bps, // custom icon
     iconBg: "#cce3de",
     date: "Jun 2025 - Jul 2025",
     points: [
@@ -152,7 +152,7 @@ export const experiences = [
   {
     title: "Fullstack Developer – Hotel Artha Lombok",
     company_name: "Hotel Artha, Lombok, Indonesia",
-    icon: Artha, // custom icon
+    icon: artha, // custom icon
     iconBg: "#d3e4cd",
     date: "Sept 2024 - Oct 2024",
     points: [
