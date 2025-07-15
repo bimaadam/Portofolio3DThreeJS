@@ -7,5 +7,17 @@ import logo from "./B.svg";
 import bps from "./BPS.png";
 import klinik from "./klinik.png";
 import artha from "./Artha.png";
+import zoya from "./zoya.png";
 
-export { hero, meta, shopify, starbucks, tesla, logo, bps, klinik, artha };
+export {
+  hero,
+  meta,
+  shopify,
+  starbucks,
+  tesla,
+  logo,
+  bps,
+  klinik,
+  artha,
+  zoya,
+};

@@ -1,4 +1,4 @@
-import { bps, klinik, artha } from "../assets/images";
+import { bps, klinik, artha, zoya } from "../assets/images";
 import {
   car,
   contact,
@@ -139,7 +139,7 @@ export const experiences = [
   {
     title: "Fullstack Developer – Zooya Cookies",
     company_name: "Zooya Cookies, Indonesia",
-    icon: zooya, // custom icon
+    icon: zoya, // custom icon
     iconBg: "#f0efeb",
     date: "July 2025 - Sept 2025",
     points: [
