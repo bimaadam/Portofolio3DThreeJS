@@ -26,14 +26,14 @@ const About = () => {
           Software Engineer from Boyolali, Indonesia. I'm deeply in love with
           TypeScript and JavaScript, and currently expanding my skills by
           learning Arduino and Rust, combining both web and hardware
-          development. I'm the co-founder of **Devnarda**, a creative tech
+          development. I'm the co-founder of Ignitron, a creative tech
           organization I built alongside Hikari Takahashi, focused on developing
           open-source tools and impactful digital solutions. Beyond code, I'm
           also a photography enthusiast who loves capturing the world through my
-          lens. In my personal life, I'm proud to share my journey with **Ririn
-          Setiawati**, the love of my life and my biggest supporter. Whether
-          it's writing clean code, crafting beautiful UIs, or exploring the
-          world behind a camera — I'm all in.
+          lens. In my personal life, I'm proud to share my journey with Ririn
+          Setiawati, the love of my life and my biggest supporter. Whether it's
+          writing clean code, crafting beautiful UIs, or exploring the world
+          behind a camera — I'm all in.
         </p>
       </div>
 
