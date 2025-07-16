@@ -3,10 +3,22 @@ import { Link } from "react-router-dom";
 import { CTA } from "../components";
 import { projects } from "../constants";
 import { arrow } from "../assets/icons";
+import { Helmet } from "react-helmet";
 
 const Projects = () => {
   return (
     <section className="max-container">
+      <Helmet>
+        <title>Bima Adam | Project Showcase</title>
+        <meta
+          name="description"
+          content="Real projects built by Bima Adam including ESP32 LED controller via WebSocket, server monitoring bot, AI chatbot, and object detection app using Python."
+        />
+        <meta
+          name="keywords"
+          content="Bima Adam projects, ESP32 WebSocket, TypeScript bot, JavaScript AI bot, object detection Python, fullstack developer portfolio"
+        />
+      </Helmet>
       <h1 className="head-text">
         My{" "}
         <span className="blue-gradient_text drop-shadow font-semibold">
