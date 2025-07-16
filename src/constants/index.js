@@ -19,6 +19,7 @@ import {
   react,
   redux,
   sass,
+  esp32,
   snapgram,
   summiz,
   tailwindcss,
@@ -184,51 +185,35 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: pricewise,
-    theme: "btn-back-red",
-    name: "Amazon Price Tracker",
+    iconUrl: esp32, // custom icon recommended (ESP32 chip/logo)
+    theme: "btn-back-orange",
+    name: "ESP32 WebSocket LED Controller",
     description:
-      "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
-    link: "https://github.com/bimaadam/",
+      "Created a real-time LED control system using Wemos D1 ESP32 with WebSocket protocol. Built using C++ (Arduino) and JavaScript for the web dashboard interface.",
+    link: "https://github.com/bimaadam", // or demo link if any
   },
   {
-    iconUrl: threads,
-    theme: "btn-back-green",
-    name: "Full Stack Threads Clone",
-    description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: "https://github.com/bimaadam",
-  },
-  {
-    iconUrl: car,
+    iconUrl: redux, // custom server bot icon
     theme: "btn-back-blue",
-    name: "Car Finding App",
+    name: "Server Monitoring Bot",
     description:
-      "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
-    link: "https://github.com/bimaadam",
+      "A bot built with TypeScript to monitor server status, CPU, and memory usage. Sends real-time alerts to Telegram for downtime or abnormal spikes.",
+    link: "https://github.com/bimaadam", // update if public
   },
   {
-    iconUrl: snapgram,
+    iconUrl: git, // AI bot style icon
     theme: "btn-back-pink",
-    name: "Full Stack Instagram Clone",
+    name: "JavaScript AI Chat Bot",
     description:
-      "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
-    link: "https://github.com/bimaadam",
+      "An experimental chatbot using vanilla JavaScript integrated with third-party AI APIs. Supports conversation flow and custom commands.",
+    link: "https://github.com/bimaadam", // update if public
   },
   {
-    iconUrl: estate,
+    iconUrl: car, // maybe object icon or Python logo
     theme: "btn-back-black",
-    name: "Real-Estate Application",
+    name: "Object Detection App (Private)",
     description:
-      "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
-    link: "https://github.com/bimaadam",
-  },
-  {
-    iconUrl: summiz,
-    theme: "btn-back-yellow",
-    name: "AI Summarizer Application",
-    description:
-      "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-    link: "https://github.com/bimaadam",
+      "A Python-based object detection tool using OpenCV and machine learning to detect physical objects via camera input. Repository is private due to client NDA.",
+    link: "", // private, no link
   },
 ];
