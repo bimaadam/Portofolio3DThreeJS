@@ -114,7 +114,7 @@ export const experiences = [
   {
     title: "Fullstack Developer – Klinik Setia Medika",
     company_name: "Klinik Setia Medika, Indonesia",
-    icon: klinik, // custom icon
+    icon: nextjs, // custom icon
     iconBg: "#fcd5ce",
     date: "May 2025 - Jun 2025",
     points: [
