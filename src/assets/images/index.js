@@ -8,6 +8,10 @@ import bps from "./BPS.png";
 import klinik from "./klinik.png";
 import artha from "./Artha.png";
 import zoya from "./zoya.png";
+import train from "./1.jpg";
+import train1 from "./2.jpg";
+import train2 from "./3.jpg";
+import train3 from "./4.jpg";
 
 export {
   hero,
@@ -20,4 +24,8 @@ export {
   klinik,
   artha,
   zoya,
+  train,
+  train1,
+  train2,
+  train3,
 };
