@@ -19,14 +19,14 @@ const Projects = () => {
           content="Bima Adam projects, ESP32 WebSocket, TypeScript bot, JavaScript AI bot, object detection Python, fullstack developer portfolio"
         />
       </Helmet>
-      <h1 className="head-text">
+      <h1 className="head-text dark:text-white">
         My{" "}
         <span className="blue-gradient_text drop-shadow font-semibold">
           Projects
         </span>
       </h1>
 
-      <p className="text-slate-500 mt-2 leading-relaxed">
+      <p className="text-slate-500 dark:text-slate-300 mt-2 leading-relaxed">
         I've worked on various projects over the years, but these are the ones
         I’m most proud of. Many are open-source — so if something catches your
         eye, feel free to dive into the code and drop your ideas for
@@ -48,10 +48,10 @@ const Projects = () => {
             </div>
 
             <div className="mt-5 flex flex-col">
-              <h4 className="text-2xl font-poppins font-semibold">
+              <h4 className="text-2xl font-poppins font-semibold dark:text-white">
                 {project.name}
               </h4>
-              <p className="mt-2 text-slate-500">{project.description}</p>
+              <p className="mt-2 text-slate-500 dark:text-slate-300">{project.description}</p>
               <div className="mt-5 flex items-center gap-2 font-poppins">
                 <Link
                   to={project.link}
@@ -72,7 +72,7 @@ const Projects = () => {
         ))}
       </div>
 
-      <hr className="border-slate-200" />
+      <hr className="border-slate-200 dark:border-slate-700" />
 
       <CTA />
     </section>

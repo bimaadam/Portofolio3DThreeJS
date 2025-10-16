@@ -1,11 +1,12 @@
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 import { useGLTF } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
+import * as THREE from "three";
 
 import skyScene from "../assets/3d/sky.glb";
 
 // 3D Model from: https://sketchfab.com/3d-models/phoenix-bird-844ba0cf144a413ea92c779f18912042
-export function Sky({ isRotating }) {
+export function Sky({ isRotating, isDarkMode }) {
   const sky = useGLTF(skyScene);
   const skyRef = useRef();
 
@@ -18,11 +19,40 @@ export function Sky({ isRotating }) {
     }
   });
 
+  useEffect(() => {
+    if (sky.scene) {
+      sky.scene.traverse((child) => {
+        if (child.isMesh && child.material) {
+          if (isDarkMode) {
+            child.material.color = new THREE.Color('#0a0a1e');
+            child.material.emissive = new THREE.Color('#000000');
+            child.material.emissiveIntensity = 0;
+          } else {
+            child.material.color = new THREE.Color('#ffffff');
+            child.material.emissive = new THREE.Color('#87ceeb');
+            child.material.emissiveIntensity = 0.5;
+          }
+        }
+      });
+    }
+  }, [isDarkMode, sky.scene]);
+
   return (
-    <mesh ref={skyRef}>
-      // use the primitive element when you want to directly embed a complex 3D
-      model or scene
-      <primitive object={sky.scene} />
-    </mesh>
+    <>
+      <mesh ref={skyRef}>
+        <primitive object={sky.scene} />
+      </mesh>
+      {isDarkMode && (
+        <mesh>
+          <sphereGeometry args={[500, 32, 32]} />
+          <meshBasicMaterial 
+            color="#050510" 
+            side={THREE.BackSide} 
+            opacity={0.85} 
+            transparent 
+          />
+        </mesh>
+      )}
+    </>
   );
 }

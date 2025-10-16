@@ -22,7 +22,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setLoading(true);d
+    setLoading(true);
     setCurrentAnimation("hit");
 
     emailjs
@@ -83,12 +83,12 @@ const Contact = () => {
           onSubmit={handleSubmit}
           className='w-full flex flex-col gap-7 mt-14'
         >
-          <label className='text-black-500 font-semibold'>
+          <label className='text-black-500 dark:text-white font-semibold'>
             Name
             <input
               type='text'
               name='name'
-              className='input'
+              className='input dark:bg-gray-800 dark:text-white dark:border-gray-600'
               placeholder='Bima'
               required
               value={form.name}
@@ -97,12 +97,12 @@ const Contact = () => {
               onBlur={handleBlur}
             />
           </label>
-          <label className='text-black-500 font-semibold'>
+          <label className='text-black-500 dark:text-white font-semibold'>
             Email
             <input
               type='email'
               name='email'
-              className='input'
+              className='input dark:bg-gray-800 dark:text-white dark:border-gray-600'
               placeholder='bimavyanisty12@gmail.com'
               required
               value={form.email}
@@ -111,12 +111,12 @@ const Contact = () => {
               onBlur={handleBlur}
             />
           </label>
-          <label className='text-black-500 font-semibold'>
+          <label className='text-black-500 dark:text-white font-semibold'>
             Your Message
             <textarea
               name='message'
               rows='4'
-              className='textarea'
+              className='textarea dark:bg-gray-800 dark:text-white dark:border-gray-600'
               placeholder='Write your thoughts here...'
               value={form.message}
               onChange={handleChange}
