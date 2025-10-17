@@ -27,6 +27,7 @@ import contact from "./contact.svg";
 import soundon from "./soundon.png";
 import soundoff from "./soundoff.png";
 import esp32 from "./esp32.svg";
+import ship from "./ship.png";
 
 export {
   css,
@@ -58,4 +59,5 @@ export {
   soundon,
   soundoff,
   esp32,
+  ship
 };

@@ -16,6 +16,10 @@ const Projects = () => {
         />
         <meta
           name="keywords"
+          content="Bima Adam build web radar ship realtime stack : Hono (backend) and React Router (frontend) with WebSocket communication. Link live: radarship.bimaadam.fun"
+        />
+        <meta
+          name="keywords"
           content="Bima Adam projects, ESP32 WebSocket, TypeScript bot, JavaScript AI bot, object detection Python, fullstack developer portfolio"
         />
       </Helmet>

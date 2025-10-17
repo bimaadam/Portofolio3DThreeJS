@@ -24,6 +24,7 @@ import {
   summiz,
   tailwindcss,
   threads,
+  ship,
   typescript,
 } from "../assets/icons";
 
@@ -216,4 +217,12 @@ export const projects = [
       "A Python-based object detection tool using OpenCV and machine learning to detect physical objects via camera input. Repository is private due to client NDA.",
     link: "", // private, no link
   },
+  {
+    iconUrl: ship,
+    theme: "btn-back-teal",
+    name: "Web Radar Ship Realtime",
+    description:
+      "Built web radar ship realtime stack : Hono (backend) and React Router (frontend) with WebSocket communication.",
+    link: "https://radarship.bimaadam.fun", 
+  }
 ];
