@@ -220,9 +220,9 @@ export const projects = [
   {
     iconUrl: ship,
     theme: "btn-back-teal",
-    name: "Web Radar Ship Realtime",
+    name: "Web tracking Ship Realtime",
     description:
-      "Built web radar ship realtime stack : Hono (backend) and React Router (frontend) with WebSocket communication.",
+      "Built web Tracking ship realtime stack : Hono (backend) and React Router (frontend) with WebSocket communication.",
     link: "https://shipradar.my.id", 
   }
 ];
