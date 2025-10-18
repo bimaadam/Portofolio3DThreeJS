@@ -223,6 +223,6 @@ export const projects = [
     name: "Web Radar Ship Realtime",
     description:
       "Built web radar ship realtime stack : Hono (backend) and React Router (frontend) with WebSocket communication.",
-    link: "https://radarship.bimaadam.fun", 
+    link: "https://shipradar.my.id", 
   }
 ];
