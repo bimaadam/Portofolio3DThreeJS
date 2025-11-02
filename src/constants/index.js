@@ -1,3 +1,4 @@
+export * from './blogPosts';
 import { bps, klinik, artha, zoya } from "../assets/images";
 import {
   car,

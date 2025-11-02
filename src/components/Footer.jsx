@@ -9,7 +9,7 @@ const Footer = () => {
 
       <div className="footer-container">
         <p className="dark:text-white">
-          © 2024 <strong>Bima Adam Nugraha</strong>. All rights reserved.
+          © {new Date().getFullYear()} <strong>Bima Adam Nugraha</strong>. All rights reserved.
         </p>
 
         <div className="flex gap-3 justify-center items-center">
